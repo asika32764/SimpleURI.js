@@ -152,7 +152,7 @@
 		uri += parts.indexOf('host') != -1 ? this.host : '';
 		uri += parts.indexOf('port') != -1 ? (this.port ? ':' : '') + this.port : '';
 		uri += parts.indexOf('path') != -1 ? '/' + this.path.replace(/^\/|\/$/g, '') : '';
-		uri += parts.indexOf('query') != -1 ? (query ? '?' + query : '') : '';
+		uri += parts.indexOf('query') != -1 ? (query ? '/?' + query : '') : '';
 		uri += parts.indexOf('fragment') != -1 ? (this.hash ? '#' + this.hash : '') : '';
  
 		return uri;
