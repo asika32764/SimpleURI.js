@@ -1,6 +1,6 @@
 # SimpleURI.js
 
-A simple JS URI object
+A simple JS URI object without jQuery.
 
 ## Usage
 
