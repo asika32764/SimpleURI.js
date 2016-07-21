@@ -1,0 +1,6 @@
+{
+  "name": "Simple-uri.js",
+  "tagline": "A simple JS URI object",
+  "body": "# SimpleURI.js\r\n\r\nA simple JS URI object without jQuery.\r\n\r\n## Usage\r\n\r\n``` javascript\r\nvar uri = new URI('http://yourhost.com');\r\n\r\nuri.path = 'some/dir';\r\nuri.port = 8080;\r\n\r\nuri.setQuery({flower: 'sakura', tree: 'santa'});\r\nuri.setVar('foo', 'bar');\r\n\r\nuri.toString();\r\n```\r\n\r\n### No Conflict\r\n\r\n``` php\r\nvar SimpleURI = URI.noConflict();\r\n\r\n// OR\r\n\r\nvar MyURI = SimpleURI.noConflict();\r\n```\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
